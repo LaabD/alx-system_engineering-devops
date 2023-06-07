@@ -1,2 +1,2 @@
 #!/bin/bash
-cd $last_dir
+source ./10-back

@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -la --show-control-chars

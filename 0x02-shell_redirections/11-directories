@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -typd ! -path . -print | wc -1

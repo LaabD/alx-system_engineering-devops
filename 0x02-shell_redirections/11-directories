@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -typd d ! -path . -print | wc -1
+echo `find . -maxdepth 1 -type d -mindepth 1 | grep -v ^\.$ | grep -v ^\.\.$ | wc -l`

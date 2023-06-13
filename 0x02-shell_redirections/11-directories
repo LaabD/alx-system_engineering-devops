@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -typd d ! -path . -print | wc -1
+find . -typd d -not -name. | wc -1
